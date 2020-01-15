@@ -1,5 +1,5 @@
 # Projeto
-DevMaps: Uma aplicação web e mobile feito para encontrar Devs no mapa, pertos do usuário ou de certa tecnologia escolhida.
+DevMaps: Uma aplicação web e mobile para encontrar Devs no mapa, pertos do usuário ou de certa tecnologia escolhida.
 
 # Tecnologias
 - [Node.js](https://nodejs.org/en/)
