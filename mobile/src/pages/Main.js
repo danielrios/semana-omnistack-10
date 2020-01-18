@@ -46,7 +46,6 @@ function Main({ navigation }){
                         <Text style={styles.devBio}>Tenho 18 anos e sou estudante em Análise e desenvolvimento de sistemas na UMC (Universidade de Mogi das Cruzes) - Campus: Villa Lobos/Lapa. </Text>
                         <Text style={styles.devTechs}>HTML, CSS, JS</Text>
                     </View>
-
                 </Callout>
             </Marker>
         </MapView>

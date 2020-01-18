@@ -17,7 +17,7 @@ aside form {
     margin-top: 30px;
 }
 
-aside form .input-block + .input-block {
+aside form .input-block+.input-block {
     margin-top: 20px;
 }
 
@@ -48,7 +48,7 @@ aside form .input-block input {
     border-bottom: 1px solid #eee;
 }
 
-aside form button[type=submit]{
+aside form button[type=submit] {
     width: 100%;
     border: 0;
     margin-top: 30px;
@@ -57,7 +57,7 @@ aside form button[type=submit]{
     padding: 15px 20px;
     font-size: 16px;
     font-weight: bold;
-    color:  #fff;
+    color: #fff;
     cursor: pointer;
     transition: background 0.5s;
 }
@@ -65,4 +65,3 @@ aside form button[type=submit]{
 aside form button[type=submit]:hover {
     background: #6931ca;
 }
-
