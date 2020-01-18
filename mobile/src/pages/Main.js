@@ -59,7 +59,8 @@ function Main({ navigation }) {
 
     return (
         <>
-            <MapView 
+            <MapView
+                onPress={() => Keyboard.dismiss()}
                 onRegionChangeComplete={handleRegionChanged} 
                 initialRegion={currentRegion}
                 style={styles.map}
@@ -141,7 +142,7 @@ const styles = StyleSheet.create({
 
     searchForm: {
         position: 'absolute',
-        bottom: 20,
+        top: 20,
         left: 20,
         right: 20,
         zIndex: 5,
