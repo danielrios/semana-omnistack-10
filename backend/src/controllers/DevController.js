@@ -4,7 +4,6 @@ const parseStringAsArray = require('../utils/parseStringAsArray');
 const { findConnections, sendMessage } = require('../websocket');
 
 module.exports = {
-  
     async index(request, response){
         const devs = await Dev.find();
         return response.json(devs);
