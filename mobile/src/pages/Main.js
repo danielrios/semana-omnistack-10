@@ -36,6 +36,8 @@ function Main({ navigation }) {
     }, []);
 
     function setupWebsocket() {
+        disconnect();
+
         const { latitude, longitude } = currentRegion;
 
         connect(
@@ -56,7 +58,7 @@ function Main({ navigation }) {
             }
         });
 
-        setDevs(response.data.devs);
+        await setDevs(response.data.devs);
         setupWebsocket();
     }
 
