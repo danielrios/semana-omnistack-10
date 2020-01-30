@@ -1,5 +1,5 @@
 # Projeto
-DevRadar: Uma aplicação web e mobile para encontrar no mapa os desenvolvedores de certa tecnologia buscada.
+DevRadar: Uma aplicação web e mobile com intuito de conectar desenvolvedores próximos a você que trabalham com uma ou mais tecnologias buscada.
 
 # Tecnologias
 - [Node.js](https://nodejs.org/en/)
