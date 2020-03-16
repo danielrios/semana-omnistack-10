@@ -103,5 +103,5 @@ dist
 # TernJS port file
 .tern-port
 
-# Fix
-.yarn.lock
+# Fix Security
+yarn.lock
